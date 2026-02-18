@@ -7,5 +7,7 @@ typedef struct  {
 } CustomArr;
 
 CustomArr *create_array(int len);
+void print_array(CustomArr *carr);
+void fill_array(CustomArr *carr);
 
 #endif

@@ -3,10 +3,8 @@
 
 int main() {
     CustomArr *arr = create_array(5);
+    fill_array(arr);
     arr->arr[0] = 10;
-    printf("%d\n", arr->len);
-    for(int i = 0; i < arr->len; i++){
-        printf("%d\n", arr->arr[i]);
-    }
+    print_array(arr);
     return 0;
 }
